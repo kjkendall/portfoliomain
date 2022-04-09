@@ -2359,7 +2359,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: black;
-				background-image: url("./images/portfoliobanner.png");
+				background-image: url(".images/portfoliobanner.png");
 				text-align: center;
 			}
 			
