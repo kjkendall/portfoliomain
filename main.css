@@ -1,4 +1,4 @@
-@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+@import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,500&family=Indie+Flower&family=Quattrocento+Sans&display=swap');
 /*
 	Prologue by HTML5 UP
@@ -2156,7 +2156,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #f8ba81
+		background: #f8ba81 url("images/overlay.png");
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #000;
 		height: 100%;
@@ -2359,7 +2359,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: black;
-				background-image: url(".images/portfoliobanner.png");
+				background-image: url("./images/portfoliobanner.png");
 				text-align: center;
 			}
 			
