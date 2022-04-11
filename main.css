@@ -2362,6 +2362,8 @@ input, select, textarea {
 				background-color: black;
 				background-image: url("./images/portfoliobanner.png");
 				text-align: center;
+				height: 500px;
+
 			}
 			
 
