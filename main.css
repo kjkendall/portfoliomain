@@ -82,7 +82,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fffff;
+		background: #ffffff;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
@@ -143,6 +143,7 @@ input, select, textarea {
 
 	header {
 		margin: 0 0 2em 0;
+		
 	}
 
 		header > p {
@@ -2157,9 +2158,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #f8ba81 url("images/overlay.png");
-		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
-		color: #000;
+		background: #f5b981;
 		height: 100%;
 		left: 0;
 		overflow-y: auto;
@@ -2174,6 +2173,7 @@ input, select, textarea {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
+			background-color: #f5b981;
 		}
 
 		#header .bottom {
@@ -2182,6 +2182,7 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			padding: 1.5em 0 0.75em 0;
+			background-color: #f5b981;
 		}
 
 			#header .bottom > :last-child {
@@ -2189,7 +2190,7 @@ input, select, textarea {
 			}
 
 		#header .icons {
-			font-size: 0.8em;
+			font-size: 1em;
 			text-align: center;
 		}
 
@@ -2349,7 +2350,7 @@ input, select, textarea {
 				}
 
 					#main > section.dark a:hover {
-						border-bottom-color: rgba(255, 255, 255, 0);
+						border-bottom-color: rgba(173, 21, 21, 0);
 					}
 
 			#main > section.cover {
