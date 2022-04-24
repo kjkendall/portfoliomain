@@ -2359,10 +2359,9 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: black;
-				background-image: url("./images/portfoliobanner.png");
-				text-align: center;
-				height: 500px;
+				height: 480px;
+				padding-top: 1px;
+				background: #e8eced url('./images/portfoliohero3.png') no-repeat center;
 
 			}
 			
