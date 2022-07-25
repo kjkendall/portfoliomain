@@ -1923,31 +1923,33 @@ input, select, textarea {
 		}
 
 
-/* Offers */
-#landing-offer .title-section h2 {
-  padding-bottom: 10px;
-  font-weight: 500;
-  letter-spacing: 1.5px;
+.progress {
+  height: 6px;
+  border-radius: 1px;
+  margin-bottom: 5px;
 }
 
-.offer-post {
-  padding: 30px 0;
+.progress-bar {
+  background: #111;
 }
 
-.offer-post h4 {
-  margin-top: 15px;
-  margin-bottom: 20px;
-  text-transform: none;
-  font-weight: 500;
+.progress-meta {
+  overflow: hidden;
+}
+h6.progress-title, h6.progress-value {
+  color: #676767;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 1.6px;;
 }
 
-.offer-icon {
-  font-size: 42px;
-  color: #fc6e51;
-  padding-bottom: 15px;
+h6.progress-title {
+  float: left;
 }
 
-
+h6.progress-value {
+  float: right;
+}
 
 
 
