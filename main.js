@@ -13077,6 +13077,17 @@ return jQuery;
 }));
 
 },{}]},{},[1]);
+	
+	    /* ==============================================
+        Skills bar
+    =============================================== */
+
+        $('.progress-bar').each(function(i) {
+            $(this).appear(function() {
+                var percent = $(this).attr('aria-valuenow');
+                $(this).animate({'width' : percent + '%'});
+            });
+        });
 
 
 })(jQuery);
