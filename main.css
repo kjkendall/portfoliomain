@@ -336,12 +336,7 @@ $winAnimEndColor : #FF5757;
 	left : 0;
 }
 
-html,body{
-	//background-image: linear-gradient(to bottom,#dddbd1,#d2dbdc);
-	background-color: #d2dbdc;
-	height : 100%;
-	width  : 100%;
-}
+
 
 .app{
 	@extend .center-box;
