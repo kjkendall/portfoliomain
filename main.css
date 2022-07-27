@@ -2942,9 +2942,7 @@ form label {
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 /* Styles */
-header{
-	display: none;
-}
+
 }
 
 /* Smartphones (landscape) ----------- */
@@ -2957,9 +2955,7 @@ and (min-width : 321px) {
 @media only screen 
 and (max-width : 390px) {
 /* Styles */
-header{
-	display: none;
-}
+
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -2967,9 +2963,6 @@ header{
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 /* Styles */
-header{
-	display: none;
-}
 }
 
 /* iPads (landscape) ----------- */
@@ -2986,9 +2979,6 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
 /* Styles */
-header{
-	display: none;
-}
 }
 
 /* Desktops and laptops ----------- */
