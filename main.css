@@ -2390,33 +2390,6 @@ form label {
 						color: #11fcc9;
 					}
 
-
-
-	@media screen and (max-width: 768px){
-		.nav {
-			box-sizing: border-box;
-			display: block;
-			width: 100%;
-			border-top: 1px solid #333;
-		  }
-
-		    /* (B) SHOW HAMBURGER ICON */
-  .nav label {
-    display: inline-block;
-    color: white;
-    background: #a02620;
-    font-style: normal;
-    font-size: 1.2em;
-    padding: 10px;
-  }
-
-    /* (C) TOGGLE SHOW/HIDE MENU */
-	.nav { display: none; }
-	#nav input:checked ~ .nav { display: block; }
-  }
-
-
-
 /* Footer */
 
 	#footer {
@@ -2706,6 +2679,35 @@ form label {
 			}
 
 	}
+
+
+
+	@media screen and (max-width: 768px){
+		#nav {
+			box-sizing: border-box;
+			display: block;
+			width: 100%;
+			border-top: 1px solid #333;
+		  }
+
+		    /* (B) SHOW HAMBURGER ICON */
+  #nav label {
+    display: inline-block;
+    color: white;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+    /* (C) TOGGLE SHOW/HIDE MENU */
+	#nav { display: none; }
+	#nav input:checked ~ #nav { display: block; }
+  }
+
+
+
+
 
 /* Narrower */
 
