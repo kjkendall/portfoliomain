@@ -1854,10 +1854,9 @@ offer-boxes .h4 {
 
   @media screen and (min-width: 769px) and (max-width: 1182px) {
 	.portfolio{
-	width: 150%;
-  }
+width: 150%;  
 }
-
+  }
 
 
   ul.languages {
@@ -2943,7 +2942,9 @@ form label {
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 /* Styles */
-
+header{
+	display: none;
+}
 }
 
 /* Smartphones (landscape) ----------- */
