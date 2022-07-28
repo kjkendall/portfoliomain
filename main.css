@@ -1207,6 +1207,8 @@ form label {
 			display: block;
 			width: 100%;
 			border-top: 1px solid #333;
+			visibility: hidden;
+
 		  }
 
 		    /* (B) SHOW HAMBURGER ICON */
